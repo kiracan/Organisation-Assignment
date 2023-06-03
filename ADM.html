@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Organization</title>
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700|Raleway:400,700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body class="sub_page">
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.jpg" alt="" />
+            <span>
+              Org
+            </span>
+          </a>
+
+          <div class="navbar-collapse" id="">
+            <div class="custom_menu-btn">
+              <button onclick="openNav()">
+                <span class="s-1"> </span>
+                <span class="s-2"> </span>
+                <span class="s-3"> </span>
+              </button>
+            </div>
+            <div id="myNav" class="overlay">
+              <div class="overlay-content">
+                <a href="index.html">ABOUT US</a>
+                <a href="CITW.html">COMPUTERS IN THE WORKFORCE</a>
+                <a href="ADM.html">AUTOMATED DECISION MAKING</a>
+                <a href="AI.html">ARTIFICIAL INTELLIGENCE</a>
+                <a href="EF.html">ENVIRONMENTAL EFFECTS</a>
+                <a href="EI.html">ETHICAL ISSUES</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+  <!-- about section -->
+  <section class="about_section layout_margin">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5 offset-md-1">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                About <br>
+                Automated <br>
+                Decision Making
+              </h2>
+              <hr>
+            </div>
+            <p>
+              Profiling analyses aspects of an individual’s personality, behaviour, interests and habits to make predictions or decisions about them.
+              <br><br>
+              Organisations obtain personal information about individuals from a variety of different sources. Internet searches, buying habits, lifestyle and behaviour data gathered from mobile phones, social networks, video surveillance systems and the Internet of Things are examples of the types of data organisations might collect.
+              <br><br>
+              They analyse this information to classify people into different groups or sectors. This analysis identifies correlations between different behaviours and characteristics to create profiles for individuals. This profile will be new personal data about that individual.
+              <br><br>
+              Organisations use profiling to:     
+              <br><br>
+              -find something out about individuals’ preferences;<br>
+              -predict their behaviour; and/or<br>
+              -make decisions about them.<br>
+              -Profiling can use algorithms. An algorithm is a sequence of instructions or set of rules designed to complete a task or solve a problem. Profiling uses algorithms to find correlations between separate datasets. These algorithms can then be used to make a wide range of decisions, for example to predict behaviour or to control access to a service. Artificial intelligence (AI) systems and machine learning are increasingly used to create and apply algorithms. There is more information about algorithms, AI and machine-learning in our paper on big data, artificial intelligence, machine learning and data protection.<br>
+              <br>
+              You are carrying out profiling if you:<br>
+              <br>
+              -collect and analyse personal data on a large scale, using algorithms, AI or machine-learning;<br>
+              -identify associations to build links between different behaviours and attributes;<br>
+              -create profiles that you apply to individuals; or<br>
+              -predict individuals’ behaviour based on their assigned profiles.<br>
+              Although many people think of marketing as being the most common reason for profiling, this is not the only application.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 px-0">
+          <div class="img-box">
+            <img src="images/aut1.jpg" alt="">
+          </div>
+        </div> 
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+
+  <script>
+    function openNav() {
+      document.getElementById("myNav").classList.toggle("menu_width");
+      document
+        .querySelector(".custom_menu-btn")
+        .classList.toggle("menu_btn-style");
+    }
+  </script>
+
+  <!-- owl carousel script -->
+  <script type="text/javascript">
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 35,
+      navText: [],
+      autoplay: true,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 3
+        }
+      }
+    });
+  </script>
+  <!-- end owl carousel script -->
+
+</body>
+
+</html>

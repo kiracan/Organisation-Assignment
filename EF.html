@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Organization</title>
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700|Raleway:400,700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body class="sub_page">
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.jpg" alt="" />
+            <span>
+              Org
+            </span>
+          </a>
+
+          <div class="navbar-collapse" id="">
+            <div class="custom_menu-btn">
+              <button onclick="openNav()">
+                <span class="s-1"> </span>
+                <span class="s-2"> </span>
+                <span class="s-3"> </span>
+              </button>
+            </div>
+            <div id="myNav" class="overlay">
+              <div class="overlay-content">
+                <a href="index.html">ABOUT US</a>
+                <a href="CITW.html">COMPUTERS IN THE WORKFORCE</a>
+                <a href="ADM.html">AUTOMATED DECISION MAKING</a>
+                <a href="AI.html">ARTIFICIAL INTELLIGENCE</a>
+                <a href="EF.html">ENVIRONMENTAL EFFECTS</a>
+                <a href="EI.html">ETHICAL ISSUES</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+  <!-- about section -->
+  <section class="about_section layout_margin">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5 offset-md-1">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                About <br>
+                Environmental <br>
+                Effects
+              </h2>
+              <hr>
+            </div>
+            <p>
+              Electrical Strain; <br>
+              At the time of publication, approximately 1.3 billion people worldwide own personal computers. In the United States, roughly 164 million people own computers. Computers used for business and personal use put an enormous strain on the electrical grid. The average PC uses 746 kilowatts of power each year, requiring more power than a refrigerator, which uses only 500 kilowatts. Computers add to the strain on power plants to produce enough energy to power the world. The production of energy creates pollution and emissions. The amount of electricity needed to power computers contributes to the millions of tons of greenhouse gases that are emitted into the atmosphere each year.
+              <br><br>
+              Energy Waste; <br>
+              Computers also contribute to energy waste. Waste creates needless pollution that could be saved each year if businesses and households would shut down their computers and power off their monitors when they are not using them. U.S. businesses waste approximately 1 billion dollars each year in electricity used to power computers and monitors left on after hours. Putting your computer on stand-by or letting your monitor go into sleep mode also creates energy waste, as these modes still require power. Even leaving your computer plugged in while it is shut down will draw a small amount of power from your electrical outlet. This energy waste translates into greenhouse excess gases that contribute to pollution and global climate change.
+              <br><br>
+              Production; <br>
+              The production of computers creates pollution. The manufacturing of computers requires a large amount of fossil fuels and chemicals. Despite the fact that computers continue to decrease in size, computers still require 10 times their weight in chemicals and pollutants during manufacturing. The pollution created by computer production is harmful to the health of those living in close proximity to manufacturing facilities which expel harmful chemicals and pollutants into the air.
+              <br><br>
+              Landfill Waste; <br>
+              Changing technology and computer breakdowns lead to millions of tons of waste in discarded computers each year. An estimated 50 million tons of electronic waste are discarded each year. Most of these discarded computers are sent to landfills overseas in Africa, China, India, Vietnam and the Philippines. There are entire regions in these countries that are polluted due to computer waste. Computers contain heavy metals like lead and toxic chemicals that pollute the soil and contaminate groundwater when they are dumped into landfills. Runoff from these landfills can contaminate water used for drinking and bathing, exposing people to dangerous chemicals.
+            
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 px-0">
+          <div class="img-box">
+            <img src="images/env.jpg" alt="">
+          </div>
+        </div> 
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+
+  <script>
+    function openNav() {
+      document.getElementById("myNav").classList.toggle("menu_width");
+      document
+        .querySelector(".custom_menu-btn")
+        .classList.toggle("menu_btn-style");
+    }
+  </script>
+
+  <!-- owl carousel script -->
+  <script type="text/javascript">
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 35,
+      navText: [],
+      autoplay: true,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 3
+        }
+      }
+    });
+  </script>
+  <!-- end owl carousel script -->
+
+</body>
+
+</html>

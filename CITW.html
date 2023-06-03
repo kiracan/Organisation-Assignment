@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Organization</title>
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700|Raleway:400,700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body class="sub_page">
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.jpg" alt="" />
+            <span>
+              Org
+            </span>
+          </a>
+
+          <div class="navbar-collapse" id="">
+            <div class="custom_menu-btn">
+              <button onclick="openNav()">
+                <span class="s-1"> </span>
+                <span class="s-2"> </span>
+                <span class="s-3"> </span>
+              </button>
+            </div>
+            <div id="myNav" class="overlay">
+              <div class="overlay-content">
+                <a href="index.html">ABOUT US</a>
+                <a href="CITW.html">COMPUTERS IN THE WORKFORCE</a>
+                <a href="ADM.html">AUTOMATED DECISION MAKING</a>
+                <a href="AI.html">ARTIFICIAL INTELLIGENCE</a>
+                <a href="EF.html">ENVIRONMENTAL EFFECTS</a>
+                <a href="EI.html">ETHICAL ISSUES</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+  <!-- about section -->
+  <section class="about_section layout_margin">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5 offset-md-1">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                COMPUTERS <br>
+                IN THE <br>
+                WORKFORCE
+              </h2>
+              <hr>
+            </div>
+            <p>
+              Computer use is prevalent in many workplaces, and some companies may find functioning without them virtually impossible. As a result, computers have become an important part of how companies conduct business as well as how workers perform their job tasks. Computers can even impact where employees do their jobs, as they can often work many miles from their official place of business.
+              <br><br>
+              Improving Communication<br><br>
+              Computers can improve communication both within the workplace and when dealing with customers. An e-mail can convey a large amount of information at one time and can be viewed at the convenience of the recipient. This can eliminate the sometimes-endless game of "phone tag" as well as the slowness of sending written information via postal mail. Computers also give customers an additional method of making inquiries or receiving information.
+              <br><br>
+              Improving Efficiency<br><br>
+              Computers can increase the speed and accuracy of many work processes, which improves overall worker efficiency. Documents can be written and edited much more quickly with the aid of a word processing program, and procedures, such as billing and accounting, can also occur more rapidly and with fewer errors. Computers can produce reports with great speed and allow for the easy insertion of enhancements, such as charts, graphs and pictures if desired. Computers also help companies in administrative tasks, such as keeping up-to-date and accurate records.
+              <br><br>
+              Less Paper<br><br>
+              As workplaces depend more heavily on computers, the need for paper may also increase. Some companies may even institute a policy of eliminating the use of paper wherever possible with the ultimate goal of becoming a paperless organization. Reducing paper may lead to a reduction in office supply costs and open more work space that had previously been used to store paper documents in file cabinets. Paperless offices need to develop contingency plans to guard against computer crashes or the loss of data.
+              <br><br>
+              Workplace Culture<br><br>
+              Computers can play a vital role in how a company operates, which also impacts the workplace culture. Able workers who live a long distance from the workplace can telecommute with the aid of a computer, and the available talent pool when job openings occur also increases. Employers who rely on a work culture that relies on telecommuters may need to find creative ways to maintain morale and a sense of teamwork within the organization, as employees may not meet in person as often.
+
+
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 px-0">
+          <div class="img-box">
+            <img src="images/CITW.jpg" alt="">
+          </div>
+        </div> 
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+
+  <script>
+    function openNav() {
+      document.getElementById("myNav").classList.toggle("menu_width");
+      document
+        .querySelector(".custom_menu-btn")
+        .classList.toggle("menu_btn-style");
+    }
+  </script>
+
+  <!-- owl carousel script -->
+  <script type="text/javascript">
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 35,
+      navText: [],
+      autoplay: true,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 3
+        }
+      }
+    });
+  </script>
+  <!-- end owl carousel script -->
+
+</body>
+
+</html>
